@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Inicio from '../pages/inicio';
 import Cartelera from '../pages/cartelera';
+import CarteleraAkira from '../pages/cartelera_akira';
 import Proximamente from '../pages/proximamente';
 import Combos from '../pages/combos';
 import Promociones from '../pages/promociones';
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/Cartelera" element={<Cartelera />} />
+        <Route path="/CarteleraAkira" element={<CarteleraAkira />} />
         <Route path="/Proximamente" element={<Proximamente />} />
         <Route path="/Combos" element={<Combos />} />
         <Route path="/Promociones" element={<Promociones />} />

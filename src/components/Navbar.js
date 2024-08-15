@@ -13,7 +13,7 @@ function Navbar() {
     <Menu>
       <Menu.Item key="1"><Link to="/MiPerfil">Mi Perfil</Link></Menu.Item>
       <Menu.Item key="2"><Link to="/Ayuda">Ayuda</Link></Menu.Item>
-      <Menu.Item key="3"><Link to="/Login">Cerrar Sesion</Link></Menu.Item>
+      <Menu.Item key="3"><Link to="/Login">Login</Link></Menu.Item>
     </Menu>
   );
 

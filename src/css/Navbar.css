@@ -16,5 +16,31 @@
     background-color: transparent !important;
   }
   
+/* Navbar.css */
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+  .menu-button {
+    display: none !important;
+  }
+  .desktop-menu {
+    display: flex !important;
+  }
+  .ant-drawer {
+    display: none !important;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+  .desktop-menu {
+    display: none !important;
+  }
+  .menu-button {
+    display: block !important;
+  }
+}
+
+  
 
   
