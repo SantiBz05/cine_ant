@@ -1,14 +1,28 @@
 import React from 'react';
 import {Col, Row} from 'antd';
+import login from '../img/grrr.jpeg'
 
 function Cartelera() {
     return (
-        <Row>
-            <Col xs={24}>    
-                <div><h1>Hola gay</h1></div>
+        <div className="background">
+          <Row>
+            <Col xs={24}>
+                <div>
+                    <h1>
+                        CUIDADOOOOOOOOOOOOO
+                    </h1>
+                </div>
             </Col>
-        </Row>
-    );
+          </Row>
+          <Row>
+            <Col xs={24}>
+            <div>
+              <img src={login} alt="Banner" />
+            </div>
+            </Col>
+          </Row>
+        </div>
+      );
 }
 
 

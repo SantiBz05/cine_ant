@@ -19,8 +19,7 @@ function Navbar() {
 
   return (
     <Layout>
-      <Header style={{ display: 'flex', alignItems: 'center' }}>
-        <div className="logo"/>
+      <Header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Menu theme='dark' mode="horizontal" defaultSelectedKeys={['1']} style={{ flex: 1 }}>
           <Menu.Item key="1" className="custom-nav-button">
             <Link to="/">
