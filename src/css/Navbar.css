@@ -1,22 +1,22 @@
 /* Aumenta la especificidad usando clases adicionales o combinaciones de selectores */
 .custom-nav-button {
-    color: white !important;
-    background-color: transparent !important;
-  }
-  
-  .custom-nav-button:focus {
-    background-color: transparent !important;
-    outline: none !important;
-    box-shadow: none !important;
-    color: white !important;
-  }
-  
-  .custom-nav-button:hover {
-    color: orange !important;
-    background-color: transparent !important;
-  }
-  
-/* Navbar.css */
+  color: grey !important;
+  background-color: transparent !important;
+  font-size: 18px !important; /* Ajusta el tamaño del texto */
+  padding: 10px 10px !important; /* Ajusta el padding interno del botón */
+}
+
+.custom-nav-button:focus {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.custom-nav-button:hover {
+  color: orange !important;
+  background-color: transparent !important;
+}
 
 /* Estilos para pantallas grandes */
 @media (min-width: 768px) {
@@ -41,6 +41,28 @@
   }
 }
 
-  
+.custom-header {
+  background-color: rgba(33,37,41,255) !important; /* Cambia el color de fondo a negro */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important; /* Ajusta los elementos al inicio y final */
+  padding: 0 !important; /* Elimina el padding para que el contenido ocupe todo el espacio */
+}
 
-  
+.custom-menu {
+  background-color: rgba(33,37,41,255) !important; /* Cambia el color de fondo del menú a negro */
+  display: flex !important;
+  flex: 1 !important;
+  justify-content: flex-start !important; /* Alinea los ítems a la izquierda */
+  margin: 0 !important; /* Elimina el margen para que el contenido ocupe todo el espacio */
+}
+
+.header-logo {
+  height: 40px !important; /* Ajusta la altura del logo si es necesario */
+}
+
+.img-rounded {
+  border-radius: 100% !important; /* Redondea el Avatar */
+  vertical-align: middle !important; /* Alineación vertical del Avatar */
+
+}

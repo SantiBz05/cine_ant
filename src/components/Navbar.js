@@ -19,11 +19,11 @@ function Navbar() {
 
   return (
     <Layout>
-      <Header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Menu theme='dark' mode="horizontal" defaultSelectedKeys={['1']} style={{ flex: 1 }}>
+      <Header className="custom-header">
+        <Menu theme='dark' mode="horizontal" defaultSelectedKeys={['1']} className="custom-menu">
           <Menu.Item key="1" className="custom-nav-button">
             <Link to="/">
-              <img src={tickettt} alt="Ticket" style={{ height: '50px' }} />
+              <img src={tickettt} alt="Ticket" className="header-logo" />
             </Link>
           </Menu.Item>
           <Menu.Item key="2" className="custom-nav-button">
@@ -45,8 +45,9 @@ function Navbar() {
         <Dropdown overlay={dropdownMenu} trigger={['click']}>
           <Avatar
             className="img-rounded"
-            size={40}
+            size={40} // Ajusta el tamaño si es necesario
             src={mascota}
+            style={{ verticalAlign: 'middle' , marginRight: '1%'}} // Alineación vertical
           />
         </Dropdown>
       </Header>

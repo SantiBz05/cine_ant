@@ -45,8 +45,11 @@ function Inicio() {
 
   return (
     <div className="background">
-      <Navbar />
-      
+      <Row>
+        <Col xs={24}>
+          <Navbar />
+        </Col>
+      </Row>
       {/* Carrusel principal */}
       <Row justify="center" style={{ marginTop: '20px' }}>
         <Col xs={24} sm={24} md={12} lg={16} xl={18}>
