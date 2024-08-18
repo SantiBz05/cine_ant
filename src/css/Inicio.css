@@ -3,8 +3,10 @@
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+  background-attachment: fixed; 
   min-height: 100vh !important;
 }
+
 .gallery-img {
   transition: transform 0.3s ease; /* Añade una transición suave */
 }
