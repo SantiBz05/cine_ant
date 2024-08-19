@@ -3,7 +3,6 @@
   color: grey !important;
   background-color: transparent !important;
   font-size: 18px !important; /* Ajusta el tamaño del texto */
-  padding: 10px 10px !important; /* Ajusta el padding interno del botón */
 }
 
 .custom-nav-button:focus {
@@ -64,5 +63,4 @@
 .img-rounded {
   border-radius: 100% !important; /* Redondea el Avatar */
   vertical-align: middle !important; /* Alineación vertical del Avatar */
-
 }

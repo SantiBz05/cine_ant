@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Importa Link para la navegación
-import { Col, Row, Carousel, Typography, Button } from 'antd';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import { Col, Row, Carousel, Typography, Button } from 'antd';
 import FooterComponent from '../components/footer'; // Asegúrate de que el nombre sea correcto
 
 // Importación de imágenes
@@ -45,15 +45,13 @@ function Inicio() {
 
   return (
     <div className="background">
-      <Row>
-        <Col xs={24}>
+
           <Navbar />
-        </Col>
-      </Row>
+
       {/* Carrusel principal */}
       <Row justify="center" style={{ marginTop: '20px' }}>
         <Col xs={24} sm={24} md={12} lg={16} xl={18}>
-          <div style={{ padding: '20px' }}>
+          <div style={{ padding: '2%' }}>
             <Carousel autoplay arrows>
               <div>
                 <Link to="/Cartelera">

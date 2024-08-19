@@ -32,11 +32,10 @@ function Proximamente() {
                 color: 'black', 
                 textAlign: 'center', 
                 marginTop: '3%', 
-                marginBottom: '4%',
+                marginBottom: '5%',
                 fontSize: '4rem', 
                 fontWeight: 300, 
                 maxWidth: '100%', 
-                margin: '0 auto' 
               }}>
               ¡No te pierdas las próximas películas que se transmitirán en nuestro cine!
             </Title>

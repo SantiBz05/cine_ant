@@ -35,20 +35,19 @@ function Cartelera() {
           style={{ 
           color: 'black', 
           textAlign: 'center', 
-          marginTop: '3%', 
-          marginBottom: '4%',
+          marginTop: '2%', 
+          marginBottom: '3%',
           fontSize: '4rem', 
           fontWeight: 300, // Asegúrate de que este estilo se aplique
           maxWidth: '100%', // Limita el ancho del título
-          margin: '0 auto' // Centra el título dentro del contenedor
           }}>
             ¡Las mejores películas de todos los tiempos en un solo lugar!
           </Title>
           </div>
-          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%' }}>
+          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%', border: '0.5px solid #c7c7c7'}}>
             <Row gutter={[16, 16]}>
               <Col xs={24} md={8}>
-                <Link to="/CarteleraAkira">
+                <Link to="/CarteleraAkira#ficha-tecnica">
                   <img
                     src={Akira}
                     alt="Akira"
@@ -58,7 +57,7 @@ function Cartelera() {
               </Col>
               <Col xs={24} md={16}>
                 <div>
-                  <Link to="/CarteleraAkira">
+                  <Link to="/CarteleraAkira#ficha-tecnica">
                     <Title level={1} style={{ marginTop: '5px', marginRight: '20%', color: 'red', fontWeight: '300' }}>
                       Akira (1988)
                     </Title>
@@ -71,7 +70,7 @@ function Cartelera() {
             </Row>
           </Card>
 
-          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%' }}>
+          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%', border: '0.5px solid #c7c7c7' }}>
             <Row gutter={[16, 16]}>
               <Col xs={24} md={8}>
                 <Link to="/CarteleraMagoOz">
@@ -97,7 +96,7 @@ function Cartelera() {
             </Row>
           </Card>
 
-          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%' }}>
+          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%', border: '0.5px solid #c7c7c7' }}>
             <Row gutter={[16, 16]}>
               <Col xs={24} md={8}>
                 <Link to="/CarteleraLoQueElVientoSeLevo">
@@ -122,7 +121,7 @@ function Cartelera() {
             </Row>
           </Card>
 
-          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%' }}>
+          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%', border: '0.5px solid #c7c7c7' }}>
             <Row gutter={[16, 16]}>
               <Col xs={24} md={8}>
                 <Link to="/CarteleraPulpFiction">
@@ -147,7 +146,7 @@ function Cartelera() {
             </Row>
           </Card>
 
-          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%' }}>
+          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%', border: '0.5px solid #c7c7c7' }}>
             <Row gutter={[16, 16]}>
               <Col xs={24} md={8}>
                 <Link to="/CarteleraTitanic">
@@ -172,7 +171,7 @@ function Cartelera() {
             </Row>
           </Card>
 
-          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%' }}>
+          <Card style={{ width: '105%', borderRadius: '8px', padding: '1%', marginBottom: '2.5%', border: '0.5px solid #c7c7c7' }}>
             <Row gutter={[16, 16]}>
               <Col xs={24} md={8}>
                 <Link to="/CarteleraVolverAlFuturo">
@@ -196,6 +195,7 @@ function Cartelera() {
               </Col>
             </Row>
           </Card>
+
           <Row justify="left">
             <Col xs={24} md={20} lg={16}>
               <Link to="/">

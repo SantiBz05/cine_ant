@@ -11,6 +11,7 @@ import cVolverAlFuturo from '../img/cVolveralFuturo.png';
 
 const { Title } = Typography;
 
+
 function Cartelera() {
   return (
     <div>
@@ -82,7 +83,8 @@ function Cartelera() {
             </div>
           </Carousel>
           <div>
-            <Title
+          <Title
+              id="ficha-tecnica"
               level={1}
               style={{
                 color: 'black',
@@ -104,12 +106,12 @@ function Cartelera() {
               borderRadius: '8px',
               padding: '1%',
               margin: '0 auto',
-              marginBottom: '2.5%'
+              marginBottom: '2.5%',
+              border: '0.5px solid #c7c7c7',
             }}
           >
             <Row gutter={[16, 16]}>
               <Col xs={24} md={8}>
-                <Link to="/CarteleraAkira">
                   <img
                     src={Akira}
                     alt="Akira"
@@ -118,11 +120,9 @@ function Cartelera() {
                       borderRadius: '8px'
                     }}
                   />
-                </Link>
               </Col>
               <Col xs={24} md={16}>
                 <div style={{ textAlign: 'left' }}>
-                  <Link to="/CarteleraAkira">
                     <Title
                       level={1}
                       style={{
@@ -134,7 +134,6 @@ function Cartelera() {
                     >
                       Akira (1988)
                     </Title>
-                  </Link>
                   <p
                     style={{
                       marginTop: '3%',
@@ -163,7 +162,8 @@ function Cartelera() {
                     padding: '1%',
                     marginTop: '20px',
                     marginLeft: '5%',
-                    marginBottom: '2.5%'
+                    marginBottom: '2.5%',
+                    border: '0.5px solid #c7c7c7'
                   }}
                 >
                   <Title
@@ -179,7 +179,7 @@ function Cartelera() {
                   </Title>
                   <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <div style={{ flex: '1', textAlign: 'center' }}>
-                      <strong>Viernes</strong>
+                      <strong style={{fontSize:'125%'}}>Viernes</strong>
                       <ul style={{ listStyleType: 'none', padding: '0', margin: '0' }}>
                         <li style={{ margin: '10px 0' }}><Link to="/Boleteria" style={{ textDecoration: 'underline' }}>16:00 - 17:30</Link></li>
                         <li style={{ margin: '10px 0' }}><Link to="/Boleteria" style={{ textDecoration: 'underline' }}>17:30 - 19:00</Link></li>
@@ -187,7 +187,7 @@ function Cartelera() {
                       </ul>
                     </div>
                     <div style={{ flex: '1', textAlign: 'center' }}>
-                      <strong>Sábado</strong>
+                      <strong style={{fontSize:'125%'}}>Sábado</strong>
                       <ul style={{ listStyleType: 'none', padding: '0', margin: '0' }}>
                         <li style={{ margin: '10px 0' }}><Link to="/Boleteria" style={{ textDecoration: 'underline' }}>16:00 - 17:30</Link></li>
                         <li style={{ margin: '10px 0' }}><Link to="/Boleteria" style={{ textDecoration: 'underline' }}>17:30 - 19:00</Link></li>
@@ -195,7 +195,7 @@ function Cartelera() {
                       </ul>
                     </div>
                     <div style={{ flex: '1', textAlign: 'center' }}>
-                      <strong>Domingo</strong>
+                      <strong style={{fontSize:'125%'}}>Domingo</strong>
                       <ul style={{ listStyleType: 'none', padding: '0', margin: '0' }}>
                         <li style={{ margin: '10px 0' }}><Link to="/Boleteria" style={{ textDecoration: 'underline' }}>16:00 - 17:30</Link></li>
                         <li style={{ margin: '10px 0' }}><Link to="/Boleteria" style={{ textDecoration: 'underline' }}>17:30 - 19:00</Link></li>
@@ -227,7 +227,8 @@ function Cartelera() {
               width: '70%',
               borderRadius: '8px',
               margin: '0 auto',
-              marginBottom: '2.5%'
+              marginBottom: '2.5%',
+              border: '0.5px solid #c7c7c7',
             }}
           >
             <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
@@ -239,7 +240,6 @@ function Cartelera() {
                   left: 0,
                   width: '100%',
                   height: '100%',
-                  border: '0'
                 }}
                 allowFullScreen
                 title="Trailer de Akira"
