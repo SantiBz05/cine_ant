@@ -1,0 +1,44 @@
+/* Ayuda.css */
+
+.preguntas {
+  background-color: #fff; /* Fondo gris claro */
+  border: 1px solid #d9d9d9; /* Borde gris */
+  border-radius: 8px; /* Bordes redondeados */
+  width: 60%; /* Ancho específico */
+  margin: 20px auto 1px auto; /* Margen superior de 20px, inferior 0, centrado en los lados */
+  min-height: 40px;
+}
+
+.link-container {
+  background-color: #fff; /* Fondo gris claro */
+  border: 1px solid #d9d9d9; /* Borde gris */
+  border-radius: 8px; /* Bordes redondeados */
+  width: 60%; /* Ancho específico */
+  margin: 0 auto 0 auto; /* Centrando el div con margen superior */
+  min-height: 40px;
+  padding: 10px; /* Relleno interno */
+}
+
+.link-title {
+  color: blue; /* Color azul para los enlaces */
+  text-decoration: underline; /* Subrayado */
+  text-decoration-color: blue; /* Color del subrayado */
+  font-size: 14px; /* Tamaño de letra pequeño */
+}
+
+.header-style {
+  color: blue; /* Color azul para los headers del acordeón */
+  text-decoration: underline; /* Subrayado */
+  font-size: 14px; /* Tamaño de letra pequeño */
+  position: relative;
+  right: 8px;
+}
+
+.contact {
+  background-color: #fff; /* Fondo gris claro */
+  border: 1px solid #d9d9d9; /* Borde gris */
+  border-radius: 8px; /* Bordes redondeados */
+  width: 60%; /* Ancho específico */
+  margin: 20px auto 1px auto; /* Margen superior de 20px, inferior 0, centrado en los lados */
+  min-height: 40px;
+}
