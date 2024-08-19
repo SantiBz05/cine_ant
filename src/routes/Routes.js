@@ -16,6 +16,7 @@ import MiPerfil from '../pages/miperfil';
 import Ayuda from '../pages/ayuda';
 import Login from '../pages/login';
 import Boleteria from '../pages/boleteria';
+import Recibo from '../pages/recibo';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/Ayuda" element={<Ayuda />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Boleteria" element={<Boleteria />} />
+        <Route path="/Recibo" element={<Recibo />} />
       </Routes>
     </BrowserRouter>
   );
