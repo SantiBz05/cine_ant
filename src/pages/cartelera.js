@@ -15,7 +15,7 @@ const { Title } = Typography;
 
 function Cartelera() {
   return (
-    <div>
+    <div className="background">
       <Row>
         <Col xs={24}>
           <Navbar />

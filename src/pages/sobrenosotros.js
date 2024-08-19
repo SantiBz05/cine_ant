@@ -29,7 +29,7 @@ function SobreNosotros() {
   ];
 
   return (
-    <div>
+    <div className='background'>
       {/* Barra de navegación */}
       <Row>
         <Col xs={24}>
@@ -47,9 +47,9 @@ function SobreNosotros() {
       </Row>
 
       {/* Contenido principal */}
-      <Row justify="center" style={{ padding: '40px 0' }}>
+      <Row justify="center"  style={{ padding: '40px 0' }}>
         <Col xs={24} md={20}>
-          <div style={{ padding: '16px', background: 'white', borderRadius: '8px' }}>
+          <div style={{ padding: '16px', borderRadius: '8px' }}>
             <Row gutter={[16, 16]}>
               {/* Sección con la imagen de la sala y la historia */}
               <Col xs={24} md={12}>
@@ -57,7 +57,7 @@ function SobreNosotros() {
               </Col>
               <Col xs={24} md={12}>
                 <Title level={3}>Nuestra Historia</Title> {/* Título de la sección */}
-                <Paragraph style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                <Paragraph style={{ fontSize: '16px', lineHeight: '1.6', backgroundColor: 'white'}}>
                   {/* Texto descriptivo sobre el cine */}
                   Nuestro Cine Retro nació en el corazón de la ciudad con el objetivo de traer de vuelta la nostalgia de las películas clásicas de los años 2000/90/80.
                   Desde comedias icónicas hasta épicos de acción, nuestro cine ofrece una experiencia única para los amantes de obras de todas las edades.
@@ -71,6 +71,7 @@ function SobreNosotros() {
                       {item} {/* Renderiza cada razón como un ítem en la lista */}
                     </List.Item>
                   )}
+                  style={{ backgroundColor: 'white', borderRadius: '8px', padding: '10px' }} // Estilos adicionales para fondo blanco
                 />
               </Col>
             </Row>

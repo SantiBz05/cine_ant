@@ -63,7 +63,7 @@ const Promos: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="background">
       <Row>
         <Col span={24}>
           <Navbar />

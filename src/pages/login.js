@@ -10,11 +10,11 @@ const Login = () => {
 
     useEffect(() => {
         // Agrega la clase al body cuando el componente se monta
-        document.body.classList.add('login-page-body');
+        document.body.classList.add('login-page-body', 'background');
 
         // Quita la clase al desmontar el componente
         return () => {
-            document.body.classList.remove('login-page-body');
+            document.body.classList.remove('login-page-body', 'background');
         };
     }, []);
 
